@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prutha Enterprises | Global Trade Simplified</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text-main: #1a1a1a;
+            --text-muted: #666666;
+            --accent: #000000;
+            --border: #eeeeee;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            line-height: 1.6;
+            overflow: hidden;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            text-align: center;
+            animation: fadeIn 1.2s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 60px;
+            display: inline-block;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 5px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+        }
+
+        p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .status-tag {
+            display: inline-block;
+            background: #f4f4f4;
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid var(--border);
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .contact-info a {
+            color: var(--text-main);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* Decorative background element */
+        .bg-element {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 10% 20%, rgba(0, 0, 0, 0.02) 0%, transparent 20%);
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bg-element"></div>
+
+    <main class="container">
+        <div class="logo">PRUTHA</div>
+
+        <br>
+        <span class="status-tag">Coming Soon</span>
+
+        <h1>Bridging Borders,<br>Delivering Excellence.</h1>
+
+        <p>Prutha Enterprises is redefining the global supply chain. Our new digital gateway for international trade is
+            currently under construction.</p>
+
+        <div class="contact-info">
+            Inquiries: <a href="mailto:hello@pruthaenterprises.com">hello@pruthaenterprises.com</a>
+        </div>
+    </main>
+
+</body>
+
+</html>
