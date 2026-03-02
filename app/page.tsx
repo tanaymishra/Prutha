@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="flex min-h-screen w-full bg-white text-gray-900">
@@ -18,7 +20,7 @@ export default function Home() {
 
         {/* Main Content Area */}
         <main className="my-auto max-w-xl">
-          <div className="mb-6 inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-gray-600 shadow-sm">
+          <div className="mt-10 mb-6 inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-gray-600 shadow-sm">
             <span className="mr-2 flex h-2 w-2 rounded-full bg-blue-600 animate-pulse"></span>
             Coming Soon
           </div>
@@ -58,8 +60,8 @@ export default function Home() {
       */}
       <div className="relative hidden w-1/2 lg:block">
         <div className="absolute inset-0 bg-gray-900/10 z-10 pointer-events-none mix-blend-multiply"></div>
-        <img
-          src="https://images.unsplash.com/photo-1586528116311-ad8ed7c1590f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+        <Image
+          src="/ports.jpg" width={500} height={500}
           alt="Cargo ship at port demonstrating global logistics"
           className="h-full w-full object-cover"
         />
